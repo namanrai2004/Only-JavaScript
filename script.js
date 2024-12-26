@@ -118,12 +118,114 @@
 // console.log(num);
 
 //Find the factorial
-const num = 5
-let fact = 1
-for (let i = 1; i <= num; i++) {
-    fact = fact*i
+// const num = 5
+// let fact = 1
+// for (let i = 1; i <= num; i++) {
+//     fact = fact*i
+// }
+// console.log(fact);  
+
+
+// print table
+
+
+// let table = 2
+// for (let i = 1; i <= 10; i++) {
+//     console.log(`${table} x ${i} = ${table*i}`); 
+// }
+
+// let a = 153
+// let arm = 6
+// console.log(arm);
+
+// let a = null
+// console.log(a);
+
+// let a = 5
+// let z = a > 10? "Naman": "Neha"
+// console.log(z);
+
+// let arr = [1,2,3,4,5,6,5,6]
+// let arr1 = [[2,4,5,[4,5,6]],4]
+// console.log([...arr,...arr1]);
+
+// let arr = [1,2,3]
+// let newArr = arr.map((e) =>{
+//     return (e*2);
+     
+// })
+// console.log(newArr);
+// console.log(arr);
+
+// Array destructing
+// const arr = ["naman","neha","riya"]
+// const [name1] = arr
+// console.log(name1);
+
+// const obj = {
+//     name: "naman",
+//     sirName: "rai"
+// }
+// const func = (mess) =>{
+//     console.log(`message is ${mess}and name is ${this.name}`);   
+// }
+// func.call("hi")
+
+// let name  = "naman"
+// let another = name = "neha"
+// console.log(another);
+
+// console.log(name);
+
+//Error Handling
+// try {
+//     const result = undefinedVar + 10
+// console.log(result);
+// } catch (error) {
+//         console.log(`ERROR occured `);      
+// } finally{
+// console.log("naman");
+// }
+
+
+// const data = () =>{
+//     try {
+//         age(25)
+//         age("inavalid")
+//         age(15)
+//     } catch (error) {
+//         console.log("ERROR",error);
+        
+//     }
+// }
+
+// const age = (ages) =>{
+//     if(typeof age !== "number"){
+//         throw new Error('Age must be in number')
+//     }
+//     console.log("user age is valid");
+// }
+
+const obj = {
+    name: "naman",
+    siname: "rai"
 }
-console.log(fact);  
+let copy  = {...obj}
+console.log(copy);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
