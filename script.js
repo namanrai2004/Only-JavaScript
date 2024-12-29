@@ -206,12 +206,14 @@
 //     console.log("user age is valid");
 // }
 
-const obj = {
-    name: "naman",
-    siname: "rai"
-}
-let copy  = {...obj}
-console.log(copy);
+// const obj = {
+//     name: "naman",
+//     siname: "rai"
+// }
+// let copy  = {...obj}
+// console.log(copy);
+
+
 
 
 
