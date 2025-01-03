@@ -50,14 +50,22 @@
 
 //Async / promise
 
-const set = setTimeout(() => {
-        let a= 2+6
-        console.log(a);
+// const set = setTimeout(() => {
+//         let a= 2+6
+//         console.log(a);
         
-}, 2000);
+// }, 2000);
 
-let a= 2*2
-console.log(a);
+// let a= 2*2
+// console.log(a);
+
+const name = (a) =>{
+        return a.slice(2)
+}
+console.log(name("naman"));
+
+
+
 
 
 
