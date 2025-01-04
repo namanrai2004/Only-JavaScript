@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button class="red">red</button>
+    <button class="green">green</button>
+    
+    <script>
+        // const red = document.querySelector('.red')
+        // const green = document.querySelector('.green')
+
+        // red.addEventListener('click',() =>{
+        //      document.body.style.backgroundColor = "red"
+        // })
+        // green.addEventListener('click',() =>{
+        //          document.body.style.backgroundColor = "green"
+        // })
+
+        const click = (color) =>{
+            return () => {
+                document.body.style.backgroundColor = `${color}`
+             }
+        }
+        document.querySelector('.red')
+        .addEventListener('click',click("red"))
+
+        document.querySelector('.green')
+        .addEventListener('click',click("green"))
+
+    </script>
+</body>
+</html>

@@ -59,10 +59,15 @@
 // let a= 2*2
 // console.log(a);
 
-const name = (a) =>{
-        return a.slice(2)
-}
-console.log(name("naman"));
+// const name = (a) =>{
+//         return a.slice(2)
+// }
+// console.log(name("naman"));
+
+// let name = ["1,2,3,4,5"]
+// let newArr = 
+// console.log(newArr);
+
 
 
 
