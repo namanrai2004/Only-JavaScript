@@ -328,3 +328,18 @@ let arr = [1, 2, 3, 4];
 //     console.log("errror", error);
 //   }
 // };
+
+//DOM
+
+// let arr1 = [1,2,3,4,5]
+
+//  arr1.reduce(() =>{
+//     let max = 0
+//     if (arr1> max) {
+//         return arr1
+//     } else {
+//         return max
+//     }
+//  })
+
+
